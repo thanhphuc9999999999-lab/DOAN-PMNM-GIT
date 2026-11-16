@@ -6,4 +6,4 @@ def validate_admin_input(data):
 
 def process_data(data):
     # Ham xu ly chinh
-    return validate_admin_input(data)
+    return check_user_format(data) and validate_admin_input(data)
